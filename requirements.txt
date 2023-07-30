@@ -1,0 +1,10 @@
+flask
+joblib
+numpy
+pandas
+nltk
+textblob
+scikit-learn
+spacy
+en_core_web_sm
+sentence-transformers
