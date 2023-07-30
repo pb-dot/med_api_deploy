@@ -19,7 +19,7 @@ if 'LR + transformer' in options:
     model3 = joblib.load('LR_model.pkl')
 
 
-query = st.text_input("Enter your question")#user input
+query = st.text_input("Enter your symptoms")#user input
 button = st.button("Submit")
 
 
