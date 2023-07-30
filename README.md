@@ -1,6 +1,11 @@
-# med_api_deploy
-## This is solely for production purporses
-## To run locally
-pip install -r requirements.txt --user <br>
-python app.py
-## The main code is found <a href="https://github.com/pb-dot/med_api_code"> here </a>
+First Go to the helpers folder to run the gen1.py and gen2.py to generate the model.pkl files
+ie SVM model and KNN model with tfidf text representation in gen1.py
+and LR model which uses transformer as text representation in gen2.py
+
+The util.py has hepler function needed by app.py for prediction and text preprocessing
+
+While deploying remove the helpers folder as we already have .pkl files
+
+############ Run the whole application using
+pip install -r requirements.txt --user
+streamlit run app.py
